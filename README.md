@@ -35,3 +35,12 @@ Database entities include the following.
 These security measures are crucial to prevent
 - Theft of user sensitive data which could be used to impersonate the user
 - Security of transcation is essential to prevent online fraud or stealing of users payment card details
+## 🔁CI/CD Pipeline
+CI stands for Continuous Integration. It is a modern software engineering practice that involves the automatic testing of code each time an update is made.
+
+CD stands for Continuous Delivery or Continuous Deployment.
+
+Continuous Delivery means the code is automatically prepared for release into production after passing tests. A manual review is required before it is finally deployed to production.
+
+Continuous Deployment, on the other hand, means that the code is automatically pushed to production after passing the testing phase, without a manual review.
+Tools for CI/CD include **GitHub Actions**, **Travis CI**, **AWS CodePipeline**, etc.
