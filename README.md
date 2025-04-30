@@ -4,3 +4,6 @@ The Airbnb Clone Project is a comprehensive, real-world application designed to 
 ## Team Roles
 - Project Manager(PM) : Releases tasks and sets the deadline for each tasks. Motivates software development team
 - Backend Engineer(BE): Responsible for building the APIs in the app, manages the database and is responsible for building scalable and secure backend systems
+## Technology Stack
+- Django web framework: Used for building RESTful APIs
+- MySQL relational database management system: Relation database system for storing data 
