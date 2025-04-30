@@ -28,3 +28,10 @@ Database entities include the following.
 - Bookings: Make, update, and manage bookings, including check-in and check-out details.
 - Payment: Handle payment transactions related to bookings.
 - Reviews: This feature allows users to post and manage reviews for properties.
+## 🔐 API Security
+- During the authentication process users' sensitive credentials such as password will be hashed before it is stored in the database. This will prevent exposing sensitive user data in the database incase of a breach.
+- CORS will be used to ensure that only request coming from authorize domain will be processed.
+- input data e.g data from forms will be validated to prevent CSRF and SQL injection
+These security measures are crucial to prevent
+- Theft of user sensitive data which could be used to impersonate the user
+- Security of transcation is essential to prevent online fraud or stealing of users payment card details
