@@ -15,11 +15,16 @@ The Airbnb Clone Project is a comprehensive, real-world application designed to 
 - Redis: Used for caching and session management.
 - Docker: Containerization tool for consistent development and deployment environments.
 - CI/CD Pipelines: Automated pipelines for testing and deploying code changes.
-## 📝Database Desing
+## 📝Database Design
 Database entities include the following.
 - User: 
 - Property:
 - Bookings:
 - Payments:
 - Review:
-## 
+## 🔍Feature Breakdown
+- User Management: This feature allows users to sign-up, sign-in, manage their account
+- Property Management: This feature allows the creation, update and removal of property listing
+- Bookings: Make, update, and manage bookings, including check-in and check-out details.
+- Payment: Handle payment transactions related to bookings.
+- Reviews: This feature allows users to post and manage reviews for properties.
