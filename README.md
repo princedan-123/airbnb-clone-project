@@ -22,11 +22,12 @@ Database entities include the following.
 - Bookings:
 - Payments:
 - Review:
-  Relationship that exists between these entities include.
-  - Users entity can view properties using the property end points.
-  - Users can also book properties using the booking endpoints.
-  - Properties can be paid for using the Payment endpoint.
-  - Users can review property entity using review endpoint.
+  
+Relationship that exists between these entities include.
+- Users entity can view properties using the property end points.
+- Users can also book properties using the booking endpoints.
+- Properties can be paid for using the Payment endpoint.
+- Users can review property entity using review endpoint.
 ## 🔍Feature Breakdown
 - User Management: This feature allows users to sign-up, sign-in, manage their account
 - Property Management: This feature allows the creation, update and removal of property listing
